@@ -6,7 +6,9 @@
 }
 
 .battweet-form__label {
+  align-items: center;
   display: flex;
+  flex: 1;
   gap: 0.75rem;
 }
 
@@ -16,7 +18,8 @@
   width: 3rem;
 }
 
-.battweet-form__label textarea {
+.battweet-form__textarea,
+.answer-form__textarea {
   background-color: var(--ui-background-color);
   border: none;
   flex: 1;
@@ -44,4 +47,16 @@
 .battweet-form__btn:hover {
   filter: brightness(0.9);
   transition: all 0.5s ease-in-out;
+}
+
+.answer-form {
+  align-items: center;
+  border-bottom: 1px solid var(--ui--primary-orange);
+  display: flex;
+  gap: 0.5rem;
+  padding: 1.5rem 1.25rem;
+}
+
+.answer-form__textarea {
+  margin-top: 1.25rem;
 }

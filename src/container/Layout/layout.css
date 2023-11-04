@@ -71,8 +71,9 @@
 }
 
 .content {
-  border-left: 1px solid var(--ui--primary-orange);
-  border-right: 1px solid var(--ui--primary-orange);
+  border: 1px solid var(--ui--primary-orange);
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 .timeline__header {

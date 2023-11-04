@@ -1,9 +1,10 @@
 import { ArrowsClockwise, ChatCircle, Heart } from "phosphor-react";
+import { IBatTweetProps } from "../../interfaces/batTweet";
 import "./batTweet.css";
 
-function BatTweet() {
+function BatTweet({ content, onClickEvent }: IBatTweetProps) {
   return (
-    <a href="#" className="tweet">
+    <a onClick={onClickEvent} className="tweet">
       <img
         src="https://avatars.githubusercontent.com/u/68293229?v=4"
         alt="Imagem de Perfil de Izabella Loyse"
@@ -15,12 +16,7 @@ function BatTweet() {
           <span>@IzabellaLoyse</span>
         </div>
 
-        <p>
-          Estamos vivendo um momento interessante no mercado de startups.
-          Soluções que resolvem problemas de forma semelhante, mas com
-          precificação mais simples, usabilidade e foco em dev first. Tudo
-          começa com um projeto open source/free 👀
-        </p>
+        <p>{content}</p>
 
         <div className="tweet-content__footer">
           <button type="button">

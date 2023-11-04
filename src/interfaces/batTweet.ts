@@ -1,4 +1,5 @@
 export interface IBatTweetProps {
-  user: string;
+  id?: string;
   content: string;
+  onClickEvent?: () => void;
 }

@@ -8,15 +8,16 @@ import {
   House,
   User,
 } from "phosphor-react";
+import { NavLink } from "react-router-dom";
 import "../layout.css";
 
 function Navigation() {
   return (
     <nav className="main-navigation">
-      <a href="#" className="active">
+      <NavLink to="/">
         <House weight="fill" />
         Home
-      </a>
+      </NavLink>
       <a href="#">
         <Hash />
         Explore
