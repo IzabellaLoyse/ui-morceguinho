@@ -1,0 +1,36 @@
+:root {
+  --ui-primary-color: #fd6500;
+  --ui-second-color: #ffffff;
+  --ui-background-color: #121214;
+
+  --ui--primary-orange: #f2641d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--ui-second-color);
+  background-color: var(--ui-background-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}

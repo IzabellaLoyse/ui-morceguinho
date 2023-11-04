@@ -1,0 +1,18 @@
+.layout {
+  margin: 0 auto;
+  max-width: 62.5rem;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.sidebar {
+  padding: 1.25rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.content {
+  border-left: 1px solid var(--ui--primary-orange);
+  border-right: 1px solid var(--ui--primary-orange);
+}
