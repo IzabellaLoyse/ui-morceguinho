@@ -1,13 +1,20 @@
-import batLogo from "../../../assets/logo.svg";
+import batLogo from "../../../assets/bat.png";
+import Navigation from "../Navigation/Navigation";
 import "../layout.css";
 
 function Sidebar() {
   return (
     <aside className="sidebar">
-      <img src={batLogo} alt="Logo de Morcego" className="logo" />
-      <nav></nav>
+      <div className="sidebar__container">
+        <img src={batLogo} alt="Logo de Morcego" className="logo" />
+        <h1>Morceguinho</h1>
+      </div>
 
-      <button>BatTweet</button>
+      <Navigation />
+
+      <button className="btn-battweet" type="button">
+        BatTweet
+      </button>
     </aside>
   );
 }

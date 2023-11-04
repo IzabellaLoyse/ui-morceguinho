@@ -1,0 +1,6 @@
+.separator {
+  background-color: #242020;
+  border-bottom: 1px solid var(--ui--primary-orange);
+  border-top: 1px solid var(--ui--primary-orange);
+  height: 0.75rem;
+}

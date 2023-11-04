@@ -2,20 +2,24 @@
   --ui-primary-color: #fd6500;
   --ui-second-color: #ffffff;
   --ui-background-color: #121214;
+  --ui-third-color: #828282;
 
   --ui--primary-orange: #f2641d;
+
+  --ui-border-radius: 9999px;
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  color: var(--ui-second-color);
   background-color: var(--ui-background-color);
+  color: var(--ui-second-color);
   -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
 }
 
 body,
@@ -23,8 +27,13 @@ input,
 textarea,
 button {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 1rem;
+  font-weight: 400;
+}
+
+textarea,
+textarea::placeholder {
+  color: var(--ui-third-color);
 }
 
 button {

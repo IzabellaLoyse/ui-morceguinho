@@ -1,27 +1,32 @@
-# React + TypeScript + Vite
+## 🦇 Morceguinho UI 🦇
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Morceguinho UI é um projeto desenvolvido com React, ViteJS e TypeScript, inspirado na Masterclass de React da Rocketseat onde o Twitter é clonado. Este projeto tem como objetivo aplicar os conceitos aprendidos durante a Masterclass, mas com um toque especial de Halloween! 🎃
 
-Currently, two official plugins are available:
+### 🛠️ Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- ViteJS
+- TypeScript
+- CSS
 
-## Expanding the ESLint configuration
+### 🚀 Instalação e Execução
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Para instalar e executar o projeto, siga os seguintes passos:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone o repositório para a sua máquina local usando `git clone`.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+2. Navegue até o diretório do projeto.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. Instale as dependências do projeto utilizando o comando `npm install` ou `yarn install`, dependendo do gerenciador de pacotes que você utiliza.
+
+4. Após a instalação das dependências, você pode iniciar o servidor de desenvolvimento utilizando `npm run dev` ou `yarn dev`.
+
+5. O projeto agora deve estar rodando em `http://localhost:3000`.
+
+### 📝 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+Espero que você se divirta com o Morceguinho UI! Feliz codificação e Feliz Halloween! 🎃👻

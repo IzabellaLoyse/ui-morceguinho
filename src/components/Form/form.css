@@ -1,0 +1,47 @@
+.battweet-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem 1.25rem;
+}
+
+.battweet-form__label {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.battweet-form__label img {
+  border-radius: 999px;
+  height: 3rem;
+  width: 3rem;
+}
+
+.battweet-form__label textarea {
+  background-color: var(--ui-background-color);
+  border: none;
+  flex: 1;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 0.75rem;
+  resize: none;
+}
+
+.battweet-form__label textarea:focus {
+  outline: none;
+}
+
+.battweet-form__btn {
+  background-color: var(--ui--primary-orange);
+  border: none;
+  border-radius: var(--ui-border-radius);
+  color: var(--ui-second-color);
+  font-size: 1rem;
+  font-weight: 900;
+  margin-left: auto;
+  padding: 0.75rem 1.5rem;
+}
+
+.battweet-form__btn:hover {
+  filter: brightness(0.9);
+  transition: all 0.5s ease-in-out;
+}
