@@ -1,3 +1,4 @@
+import { Pencil } from "phosphor-react";
 import batLogo from "../../../assets/bat.png";
 import Navigation from "../Navigation/Navigation";
 import "../layout.css";
@@ -13,7 +14,8 @@ function Sidebar() {
       <Navigation />
 
       <button className="btn-battweet" type="button">
-        BatTweet
+        <Pencil />
+        <span>BatTweet</span>
       </button>
     </aside>
   );

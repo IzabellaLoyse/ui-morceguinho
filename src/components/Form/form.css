@@ -49,6 +49,12 @@
   transition: all 0.5s ease-in-out;
 }
 
+.battweet-form__btn svg {
+  display: none;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
 .answer-form {
   align-items: center;
   border-bottom: 1px solid var(--ui--primary-orange);
@@ -59,4 +65,22 @@
 
 .answer-form__textarea {
   margin-top: 1.25rem;
+}
+
+@media (max-width: 780px) {
+  .battweet-form__label {
+    font-size: 1rem;
+  }
+
+  .battweet-form__btn {
+    padding: 0.75rem;
+  }
+
+  .battweet-form__btn svg {
+    display: block;
+  }
+
+  .battweet-form__btn span {
+    display: none;
+  }
 }

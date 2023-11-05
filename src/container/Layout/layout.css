@@ -3,6 +3,7 @@
   grid-template-columns: 300px 1fr;
   margin: 0 auto;
   max-width: 62.5rem;
+  min-height: 100vh;
 }
 
 .sidebar {
@@ -22,6 +23,12 @@
 .logo {
   height: 2rem;
   width: 2rem;
+}
+
+.sidebar .btn-battweet svg {
+  display: none;
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .btn-battweet {
@@ -90,4 +97,31 @@
   color: var(--ui-primary-color);
   height: 1.5rem;
   width: 1.5rem;
+}
+
+@media (max-width: 780px) {
+  .layout {
+    grid-template-columns: 80px 1fr;
+  }
+
+  .sidebar {
+    align-items: center;
+    padding: 1.5rem 0.75rem;
+  }
+
+  .sidebar__container h1 {
+    display: none;
+  }
+
+  .sidebar .btn-battweet svg {
+    display: block;
+  }
+
+  .sidebar .btn-battweet span {
+    display: none;
+  }
+
+  .main-navigation a span {
+    display: none;
+  }
 }

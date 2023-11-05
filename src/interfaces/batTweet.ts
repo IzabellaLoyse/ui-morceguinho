@@ -3,3 +3,7 @@ export interface IBatTweetProps {
   content: string;
   onClickEvent?: () => void;
 }
+export interface IBatTweetContext {
+  batTweets: IBatTweetProps[];
+  setBatTweets: React.Dispatch<React.SetStateAction<IBatTweetProps[]>>;
+}
